@@ -1,4 +1,15 @@
 
+
+@import "generales";
+
+
+
+
+
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,8 +18,10 @@
 }
 
 body {
-    color: red;
+    color: blue;
     margin: 20px;
+    background-size: 100vw 100vh;
+    margin: 0;
 }
 
 
@@ -18,8 +31,8 @@ header {
     background-color: aqua;
     padding: 80px;
     margin: 5px;
-    /* margin-top: 0; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -57,6 +70,16 @@ ul li {
     display: block;
 }
 
+.form-flex {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10 px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
 h1 {
     margin-right: 0;
 }
@@ -69,11 +92,15 @@ p {
     height: 60%;
 }
 
-
-form {
-    color: black;
-    margin: 10px;
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
 }
+
+
+
+
 
 .tabla {
     color: black;
@@ -96,15 +123,13 @@ strong {
 }
 
 
+
+
 footer {
-    background-color: aqua;
-    padding: 150px;
-    margin-bottom: 0;
-    margin-top: 450px;
-    text-align: center;
+    background-color: blue;
 }
 
-/*.content__header {
+.content__header {
     grid-area: header;
 }
 
@@ -136,9 +161,9 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-*/
 
-/* estilos galeria herramientas */
+
+
 .herramientas {
     text-align: center;
     margin: 20px 15px 0;
@@ -149,11 +174,4 @@ footer {
     margin-bottom: 20px;
 }
 
-/*
-.content__imagenes{
-    width: auto;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
-}*/
+
