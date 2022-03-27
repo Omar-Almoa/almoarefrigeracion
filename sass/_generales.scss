@@ -12,3 +12,13 @@ html{
     font-size: 62.5%;
     font-family: sans-serif;
 }
+
+header {
+    background-color: aqua;
+    padding: 80px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}

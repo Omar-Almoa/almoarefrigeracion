@@ -1,29 +1,17 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
-body {
-  color: red;
-  margin: 20px; }
 
-header {
-  background-color: aqua;
-  padding: 80px;
-  margin: 5px;
-  /* margin-top: 0; */
+img{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end; }
-
-.logo {
+  flex-wrap: wrap;
   width: 250px;
-  border-radius: 50%; }
+}
 
-.barra__nav {
-  display: flex; }
 
 ul {
   list-style: none;
@@ -31,7 +19,8 @@ ul {
   align-self: flex-end;
   margin-bottom: 0.5em;
   margin-right: 00.5em;
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 ul li {
   list-style: none;
@@ -42,90 +31,45 @@ ul li {
   font-size: 1.3em;
   padding: 0.5em;
   line-height: 2;
-  display: block; }
+  display: block;
+}
 
 h1 {
-  margin-right: 0; }
+  margin-right: 0;
+}
 
 h2 {
-  margin: 20px; }
+  margin: 20px;
+}
 
 p {
-  height: 60%; }
-
-form {
-  color: black;
-  margin: 10px; }
-
-.tabla {
-  color: black;
-  border: 1 px solid black; }
-
-br {
-  border: 1px solid #2a0cd8; }
+  height: 60%;
+}
 
 p {
   margin: 2rem;
   color: blue;
-  font-size: x-large; }
+  font-size: medium;
+}
 
 strong {
-  color: red; }
+  color: red;
+}
+
+.form-flex {
+  width: 450px;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10 px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
 
 footer {
   background-color: aqua;
-  padding: 150px;
+  padding: 100px;
   margin-bottom: 0;
   margin-top: 450px;
-  text-align: center; }
-
-/*.content__header {
-    grid-area: header;
-}
-
-.presentación {
-    grid-area: presentación;
-}
-
-aside {
-    grid-area: aside;
-}
-
-footer {
-    grid-area: footer;
-}
-
-#contenedor {
-    display: grid;
-    gap: 20px;
-    grid-template-areas:
-        "header header header"
-        "presentación presentación aside"
-        "footer footer footer";
-    
-    border: 2px solid black;
-}
-
-@media screen and (min-width: 768px) {
-    #contenedor {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-*/
-/* estilos galeria herramientas */
-.herramientas {
   text-align: center;
-  margin: 20px 15px 0; }
-
-.linea {
-  border-top: 5px solid blueviolet;
-  margin-bottom: 20px; }
-
-/*
-.content__imagenes{
-    width: auto;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
-}*/
+}
